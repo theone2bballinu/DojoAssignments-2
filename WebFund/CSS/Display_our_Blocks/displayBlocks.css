@@ -1,0 +1,29 @@
+#wrapper {
+	background-color: beige;
+	position: relative;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+header {
+	background-color: green;
+}
+table {
+	background-color: blue;
+}
+
+header img, header h1 {
+	display: inline-block;
+}
+
+
+td {
+	border: 1px solid black;
+}
+
+#trouble {
+	
+}
