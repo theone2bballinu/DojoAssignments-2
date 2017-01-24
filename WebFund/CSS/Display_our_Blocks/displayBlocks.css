@@ -1,6 +1,7 @@
 #wrapper {
 	background-color: beige;
 	position: relative;
+	width: 1400px;
 }
 
 img{
@@ -9,14 +10,28 @@ img{
 }
 
 header {
-	background-color: green;
+	position: relative;
+	left: 272px;
 }
 table {
-	background-color: blue;
+	position: relative;
+	left: 135px;
 }
 
 header img, header h1 {
 	display: inline-block;
+	padding: 15px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+header h1 {
+	font-size: 36px;
+}
+
+header img {
+	height: 75px;
+	width: 150px;
 }
 
 
@@ -24,6 +39,14 @@ td {
 	border: 1px solid black;
 }
 
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
 #trouble {
-	
+
 }
