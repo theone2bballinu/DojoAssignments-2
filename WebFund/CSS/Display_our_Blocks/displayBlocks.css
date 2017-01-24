@@ -1,7 +1,9 @@
 #wrapper {
 	background-color: beige;
 	position: relative;
-	width: 1400px;
+	width: 1238px;
+	padding: 15px;
+	margin:auto
 }
 
 img{
@@ -11,11 +13,11 @@ img{
 
 header {
 	position: relative;
-	left: 272px;
+	left: 240px;
 }
 table {
 	position: relative;
-	left: 135px;
+	left: 7px;
 }
 
 header img, header h1 {
@@ -36,7 +38,8 @@ header img {
 
 
 td {
-	border: 1px solid black;
+	border: 5px solid black;
+	padding: 15px;
 }
 
 .red {
