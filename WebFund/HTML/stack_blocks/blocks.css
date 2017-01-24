@@ -1,0 +1,20 @@
+ #wrapper {
+     background-color: grey;
+     height: 800px;
+     width: 1500px;
+     padding: 25px;
+
+ }
+
+ #green {
+     background-color: green;
+     height: 200px;
+     margin: 25px;
+ }
+
+ #blue {
+     background-color: blue;
+     height: 450px;
+     width: 300px;
+     margin-left: 25px;
+ }
