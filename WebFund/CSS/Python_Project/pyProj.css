@@ -1,0 +1,80 @@
+* {
+    position: relative;
+}
+
+.wrapper {
+    background-color: blue;
+    height: 975px;
+    width: 975px;
+}
+
+.box-1 {
+    background-color: red;
+    height: 20%;
+    padding: 10px;
+}
+
+.box-1 * {
+    display: inline-block;
+
+}
+
+.box-2 {
+    background-color: green;
+    height: 35%;
+}
+
+.box-3 {
+    background-color: yellow;
+    height: 30%;
+}
+
+.box-4 {
+    background-color: pink;
+    height: 15%;
+}
+
+.img-box {
+    height: 80%;
+    width: 50%;
+    border: 4px solid black;
+}
+
+.search-box {
+    border: 4px solid black;
+    height: 80%;
+    width: 47%;
+    right: -7px;
+}
+
+.nav-box {
+    border: 4px solid black;
+    height: 19%;
+    width: 99%;
+    bottom: 8px;
+}
+
+.nav-box a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-box ul {
+    left: 66px;
+    top: -10px;
+}
+
+.nav-box li {
+    margin: 0 18px;
+}
+
+.nav-box a:hover {
+    color: orange;
+}
+
+.img-box img {
+    left: -21px;
+    top: -45px;
+    height: 140px;
+}
