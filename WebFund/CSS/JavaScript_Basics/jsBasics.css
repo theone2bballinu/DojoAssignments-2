@@ -2,11 +2,12 @@
 
 #wrapper {
 	background-color: #20647A;
-	height:900px;
+	height: 915px;
 	width: 1400px;
 	position: relative;
 	padding: 5px;
 }
+
 #sidebar {
 	background-color: #7AC5DE;
 	height: 312px;
@@ -33,6 +34,7 @@ header {
 	border-radius: 20px;
 	margin : 20px;
 }
+
 header h1 {
 	color: white;
 	position: relative;
@@ -46,17 +48,21 @@ header h1 {
 	width: 1039px;
 	border-radius: 20px;
 	position: absolute;
+	padding: 10px;
 	top: 148px;
 	left: 343px;
 }
+
 footer {
 	background-color: grey;
 	height: 49px;
 	border-radius: 20px;
 	position: relative;
-	top: 321px;
+	top: 337px;
 	padding: 5px;
+	margin: 10px;
 }
+
 footer h3 {
 	display: inline;
 	color: white;
@@ -66,4 +72,27 @@ footer * {
 	position:relative;
 	top: 10px;
 	left: 10px;
+}
+
+a {
+	color: blue;
+}
+
+#content p, #content ul {
+	color: white;
+}
+
+ul p {
+	display: inline;
+}
+
+
+
+a:hover {
+	color: yellow;
+}
+
+#content li {
+	padding: 10px 30px;
+	margin: 5px;
 }
