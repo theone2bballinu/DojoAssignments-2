@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	position: relative;
+}
+a:hover {
+	color: red;
+}
+
+body {
+	background-color: grey;
+	padding: 10px;
+}
+
+.wrapper {
+	background-color: white;
+	height: 1152px;
+	padding: 10px;
+}
+
+.header {
+
+	height: 14%;
+	margin-bottom: -149px;
+}
+.header-1, .header-2 {
+
+	height: 100%;
+	width: 49%;
+	display: inline-block;
+}
+
+.header-1 img {
+	height: 100%;
+}
+.header-2 {
+	left: 18px;
+	top: -131px;
+	text-align: right;
+}
+.header-2 h2 {
+	margin-right: 14px;
+	margin-top: 11px;
+}
+
+.content {
+	background: radial-gradient(purple, blue, teal);
+	height: 85%;
+	width: 98%;
+	top: 149px;
+	left: 9px;
+}
+ .nav-bar {
+	border: 2px solid black;
+	text-align: center;
+	background-color: white;
+ }
+ .nav-bar a {
+ 	text-decoration: none;
+ 	font-size: 30px;
+ 	position: relative;
+ 	left: -44px;
+ }
+ .nav-bar ul {
+	margin: 0;
+ }
+ .nav-bar li {
+ 	display: inline-block;
+ 	margin: 0 35px;
+ 	border-right: 2px solid black;
+ 	height: 45px;
+ }
+ .content-1 {
+
+ 	height: 45%;
+ 	padding: 10px;
+ }
+ .content-1-img, .content-1-info {
+ 	display: inline-block;
+ }
+ .content-1-img {
+ 	background-color: grey;
+ 	height: 90%;
+ 	width: 50%;
+ 	padding: 10px;
+
+ }
+ .content-1-img img {
+ 	height: 100%;
+ 	width: 100%;
+ }
+ .content-1-info {
+ 	background-color: white;
+ 	height: 90%;
+ 	width: 40%;
+ 	top: -200px;
+ 	left: 79px;
+ }
+ .info-head {
+ 	background: linear-gradient(white, grey);
+ 	height: 15%;
+ 	top: -19px;
+ }
+ .info-head h3 {
+	position: relative;
+	top: 14px;
+	left: 17px;
+ }
+ .info-body {
+ 	padding: 5px;
+ }
+
+ .content-2 {
+
+ 	height: 46%;
+ 	text-align: center;
+ 	padding: 10px;
+ }
+ .content-2 div {
+ 	display: inline-block;
+ 	background-color: #DCE1E3;
+ 	height: 348px;
+ 	width: 266px;
+ 	margin: 0 20px;
+ 	top: 10px;
+ 	left: 10px;
+ }
+
+.content-2 .heads {
+ 	background: linear-gradient(white, grey);
+ 	height: 15%;
+ 	margin-left: -10px;
+ 	margin-top: -10px;
+ }
+.content-2 .img-box {
+ 	border: 2px solid black;
+ 	height: 30%;
+ 	left: -22px;
+ 	top: 6px;
+ }
+ .content-2 .img-box img {
+ 	height: 100%;
+ 	width: 100%;
+ }
+ .content-2 p {
+ 	font-size: 12px;
+ }
+ .content-2 input {
+ 	border-radius: 5px;
+ 	box-shadow: 5px 5px 15px black;
+ 	border: 1px solid black;
+ 	background-color: #317085;
+ 	margin-right: -150px
+ }
