@@ -1,0 +1,87 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0px 0 0 0;
+	margin: 0px 0px 0px 0px;
+}
+
+html, body {
+	height: 100%
+}
+
+body {
+	padding: 10px;
+}
+
+.wrapper {
+	background-color: #E1E6E8;
+	height: 900px;
+	width: 1200px;
+	padding: 20px;
+}
+
+header {
+	height: 10%;
+	border: 2px dotted black;
+	background-color: teal;
+}
+header div {
+	display: inline-block;
+}
+.header-logo {
+	border: 1px dotted red;
+	height: 100%;
+	width: 30%;
+}
+.header-links {
+	border: 1px solid yellow;
+	height: 100%;
+	width: 69%;
+}
+
+.content {
+	border: 2px dotted blue;
+	height: 70%;
+	margin: 30px 0 30px 0;
+	background-color: yellow;
+	padding: 15px;
+}
+.box-1 {
+	height: 100%;
+	width: 30%;
+
+
+}
+.box-2 {
+	height: 32%;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 10px;
+}
+.box-3 {
+		height: 32%;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 10px;
+}
+.box-4 {
+		height: 32%;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 10px;
+}
+.content div {
+	display: inline-block;
+	background-color: green;
+}
+
+footer {
+	border: 2px dotted green;
+	height: 10%;
+	background-color: teal;
+}
