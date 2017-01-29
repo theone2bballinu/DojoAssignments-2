@@ -14,74 +14,130 @@ html, body {
 	height: 100%
 }
 
-body {
-	padding: 10px;
-}
-
 .wrapper {
-	background-color: #E1E6E8;
-	height: 900px;
-	width: 1200px;
-	padding: 20px;
+	background-color: lightgrey;
+	height: 100%;
+	width: 85%;
+	margin: auto;
+	padding: 15px;
 }
 
 header {
+	background: linear-gradient(turquoise, darkturquoise);
 	height: 10%;
-	border: 2px dotted black;
-	background-color: teal;
 }
-header div {
+header * {
 	display: inline-block;
+	vertical-align: top;
 }
-.header-logo {
+.header-left {
+	border: 1px dotted red;
+	width: 30%;
+	height: 100%;
+	text-align: left;
+
+}
+.header-left img {
+	height: 80%;
+	margin: 9px 10px 0 11px;
+}
+.header-left h1 {
+	font-size: 40px;
+	margin: 19px 0px 0 0;
+	font-family: "Lucida Console", Monaco, monospace
+}
+
+
+.header-right {
 	border: 1px dotted red;
 	height: 100%;
-	width: 30%;
+	width: 69.4%;
+	text-align: right;
 }
-.header-links {
-	border: 1px solid yellow;
-	height: 100%;
-	width: 69%;
+.header-right a {
+	color: white;
+}
+.header-right li {
+	margin: 29px 28px 0 0;
+	font-size: 16px;
+	font-family: "Lucida Console", Monaco, monospace
 }
 
 .content {
-	border: 2px dotted blue;
-	height: 70%;
-	margin: 30px 0 30px 0;
-	background-color: yellow;
-	padding: 15px;
-}
-.box-1 {
-	height: 100%;
-	width: 30%;
-
-
-}
-.box-2 {
-	height: 32%;
-	width: 20%;
-	vertical-align: top;
-	margin: 0 10px;
-}
-.box-3 {
-		height: 32%;
-	width: 20%;
-	vertical-align: top;
-	margin: 0 10px;
-}
-.box-4 {
-		height: 32%;
-	width: 20%;
-	vertical-align: top;
-	margin: 0 10px;
+	height: 75%;
+	background-color: lightyellow;
+	margin: 20px 0 20px 0;
+	padding: 5px;
 }
 .content div {
 	display: inline-block;
-	background-color: green;
+	border-radius: 5px;
+	background: linear-gradient(teal, darkgreen);
+	padding: 8px;
+
+}
+.content div * {
+	color: white;
+	font-family:"Lucida Console", Monaco, monospace;
+	margin-bottom: 42px;
+}
+.content div h1 {
+	font-weight: bold;
+	font-size: 30px;
+}
+.content div p {
+	font-size: 18px;
+	margin-left: 25px;
+	text-indent: 25px;
+}
+.content-1 {
+	height: 90%;
+	width: 25%;
+	margin: 30px 0 0px 21px;
+}
+.content-2, .content-3, .content-4 {
+	height: 31%;
+	width: 17%;
+	vertical-align: top;
+	margin: 15px -10px 0px 77px;
+}
+.content-5, .content-6 {
+	height: 30%;
+	width: 30%;
+	margin: 0px -45px 0px 76px;
+	position: relative;
+	top: -412px;
+	left: 390px;
+}
+.content-7 {
+	height: 23%;
+	width: 64%;
+	position: relative;
+	top: -396px;
+	left: 465px;
 }
 
+
+
+
 footer {
-	border: 2px dotted green;
+	background: linear-gradient(turquoise, darkturquoise);
 	height: 10%;
-	background-color: teal;
+	text-align: center;
+}
+footer p {
+	font-family: "Lucida Console", Monaco, monospace;
+	position: relative;
+	top:40px;
+}
+
+.content div p span {
+	color: turquoise;
+}
+a:hover {
+	color: orange;
+	margin-top: 5px;
+}
+img:hover {
+	height: 105%;
 }
