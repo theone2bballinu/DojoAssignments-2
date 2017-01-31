@@ -3,6 +3,7 @@ var minute = 30;
 var period = "AM";
 
 var when;
+
 if (period == "AM") {
 	when = "Morning";
 }

@@ -46,3 +46,19 @@ section {
 .dojo-vid {
 	box-shadow: 5px 5px 10px darkblue;
 }
+
+.red {
+	color: red !important;
+}
+
+button {
+	background: linear-gradient(white, lightgrey, grey, darkgrey);
+}
+
+
+b {
+	color: black;
+}
+input {
+	text-align: center;
+}
