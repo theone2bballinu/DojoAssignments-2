@@ -1,0 +1,11 @@
+section {
+    display: inline-block;
+    border: 1px groove red;
+    height: 900px;
+    width: 900px;
+    vertical-align: top;
+    padding: 10px;
+}
+.row {
+    margin: 50px auto;
+}
