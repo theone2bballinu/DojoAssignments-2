@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Contact Cards</title>
+  <title>Game of thrones</title>
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Samuel Bragge">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -21,42 +21,39 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="custom.css"/>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="script.js" type="text/javascript" defer></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 <body>
 
-    <section id="sec-1">
-            <form class="container">
+    <div class="container">
+        <div class="row">
+            <div class="three columns box" id="baratheon" >
+                <img src="images/baratheon.png" idx="17"/>
+            </div>
+            <div class="three columns box" id="targaryen">
+                <img src="images/targaryen.jpg" idx="378"/>
+            </div>
+            <div class="three columns box" id="lannister">
+                <img src="images/lannister.jpg" idx="229"/>
+            </div>
+            <div class="three columns box" id="stark">
+                <img src="images/stark.jpg" idx="362"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns" id="results">
 
-                <div class="row">
-                    <label class="four columns" for="first_name">First Name: </label>
-                    <input class="four columns" type="text" id="first_name" value="first name"/>
-                </div>
-                <div class="row">
-                    <label class="four columns" for="last_name">Last Name: </label>
-                    <input class="four columns" type="text" id="last_name" value="last name"/>
-                </div>
-                <div class="row">
-                    <label class="four columns" for="desc">Description: </label>
-                    <textarea class="four columns" id="desc" placeholder="testing"></textarea>
-                </div>
-                <input type="submit" id="submit"/>
+            </div>
+        </div>
+    </div>
 
-            </form>
-    </section>
-
-
-    <section id="sec-2">
-        <!-- where the cards will go -->
-    </section>
 
 </body>
 </html>

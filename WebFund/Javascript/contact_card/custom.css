@@ -5,7 +5,33 @@ section {
     width: 900px;
     vertical-align: top;
     padding: 10px;
+    box-shadow: inset 5px 5px 10px black;
+    vertical-align: top;
 }
 .row {
     margin: 50px auto;
+}
+.card {
+    height: 200px;
+    width: 350px;
+    border: 2px groove darkgrey;
+    box-shadow: 8px 8px 13px black;
+    display: inline-block;
+    padding: 13px;
+    vertical-align: top;
+}
+.card-back {
+    height: 200px;
+    width: 350px;
+    border: 2px groove darkgrey;
+    box-shadow: inset 8px 8px 13px black;
+    display: inline-block;
+    padding: 13px;
+    vertical-align: top;
+}
+#sec-2 {
+    overflow-y: scroll;
+}
+#sec-2 div {
+    margin: 10px;
 }
