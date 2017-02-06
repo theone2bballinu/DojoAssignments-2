@@ -1,7 +1,8 @@
 #wrapper {
 	background-color: beige;
 	position: relative;
-	width: 1238px;
+	width: 1200px;
+	height: 500px;
 	padding: 15px;
 	margin:auto
 }
@@ -49,4 +50,3 @@ td {
 .blue {
 	background-color: blue;
 }
-

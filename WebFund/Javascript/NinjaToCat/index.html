@@ -13,6 +13,9 @@
     }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- jqueri ui -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         for(var i=0; i <= 4; i++) {
@@ -20,10 +23,10 @@
         }
         $('img').click(function() {
           var temp = $(this).attr('data-alt-src');
-          $(this).fadeOut(500,function() {
+          $(this).effect('shake',function() {
             $(this).attr('data-alt-src',$(this).attr('src'));
             $(this).attr('src',temp);
-            $(this).fadeIn(500);
+            $(this).effect('shake');
           });
           // console.log('data-alt-src value is', $(this).attr('data-alt-src'));
         });
