@@ -14,7 +14,7 @@ class MathDojo(object):
                 print "No strings please!"
                 break
         return self
-
+ 
     def subtract(self, *args):
         for i in range(0, len(args)):
             if isinstance(args[i], (list, tuple)):
