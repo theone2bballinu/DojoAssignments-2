@@ -13,7 +13,7 @@ k = [19,2,54,-2,7,12,98,32,10,-3,6]
 
 
 
-I know this isnt the correct way of doing this, sorry!
+
 l = [num for num in k if num < 0]
 k = [num for num in k if num > 0]
 

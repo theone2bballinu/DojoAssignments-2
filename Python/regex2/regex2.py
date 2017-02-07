@@ -50,7 +50,7 @@ def all_t_words():
 # print all_t_words()
 
 def find_punct():
-    regex = (r",", r"'", r";")
+    regex = (r",", r"'", r";")                      # '.' seems to be attached to the letters for some reason :(
     f = open('Python/regex2/sample.txt', 'r')
     r = f.read()
     punct = []
@@ -60,4 +60,4 @@ def find_punct():
                 punct.append(l)
     return punct
 
-print find_punct()
+# print find_punct()

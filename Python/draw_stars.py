@@ -1,7 +1,7 @@
 def draw_stars(arr):
     for i in arr:
         if isinstance(i, int):
-            print "*"*i
+            print ("*"*i)
         elif isinstance(i, str):
             print i[0]*len(i)
 

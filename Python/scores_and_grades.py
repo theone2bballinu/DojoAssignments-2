@@ -1,4 +1,5 @@
 import random
+
 def scores():
     for i  in range(10):
         ranum = random.randint(1, 101)

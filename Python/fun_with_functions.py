@@ -12,3 +12,5 @@ def hackChal(x = multBy([2,4,6,8,10], 2)):
     for i in range(len(x)):
         x[i] = [1]*x[i]
     print x
+
+hackChal()
