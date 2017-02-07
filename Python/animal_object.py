@@ -48,4 +48,4 @@ class Dragon(Animal):
         super(Dragon, self).display_health()
 
 dragon = Dragon('Drogon')
-dragon.walk().walk().walk().run().run().fly().fly().display_health()
+# dragon.walk().walk().walk().run().run().fly().fly().display_health()
